@@ -1,1 +1,34 @@
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>YourWill</title><link rel="stylesheet" href="src/styles.css?v=2"></head><body><canvas id="world"></canvas><script src="src/config.js?v=2"></script><script src="src/noise.js?v=2"></script><script src="src/generator.js?v=2"></script><script src="src/renderer.js?v=2"></script><script src="src/camera.js?v=2"></script><script src="src/main.js?v=2"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#07120f">
+  <title>YourWill — minimal chunk world</title>
+  <link rel="stylesheet" href="src/styles.css?v=chunk-min-1">
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div class="brand">
+    <strong>YourWill</strong>
+    <span>MINIMAL CHUNK WORLD</span>
+  </div>
+
+  <section id="inspector" class="panel hidden">
+    <div id="inspectorTitle">Entity</div>
+    <pre id="inspectorBody">Кликни по тайлу, цветку, яблоку, дереву или человечку.</pre>
+  </section>
+
+  <div class="hud">
+    <button id="zoomOut" type="button">−</button>
+    <button id="zoomIn" type="button">+</button>
+    <button id="home" type="button">HOME</button>
+    <button id="pause" type="button">PAUSE</button>
+  </div>
+
+  <div id="stats" class="stats"></div>
+
+  <script src="src/main.js?v=chunk-min-1"></script>
+</body>
+</html>
