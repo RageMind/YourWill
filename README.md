@@ -1,3 +1,3 @@
 # Clean
 
-Removed previous prototype.
+Previous prototype files removed.
